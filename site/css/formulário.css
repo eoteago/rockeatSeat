@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(233, 228, 229);
+    font-family: Verdana;
+    font-size: 100%;
+}
+
+#Titulo{
+    color:#000;
+    font-family: Verdana;
+    text-align: center;
+    
+}
+
+#Subtitulo{
+    margin-top: 5%;
+    text-align: left;
+    font-family: Verdana;
+    color: black;
+}
+
+.grupo1{
+   width: 0;
+   background-color: transparent;
+}
+
+.grupo2{
+        width: 0;
+        padding: 0px;
+        border-style: hidden    
+    background-color: transparent;
+   
+}
+
+.grupo3{
+    text-align: center;
+    background-color: transparent;
+    width: 0;
+    margin-left: 43%;
+    
+}
+
+.concluir{
+    background-color: transparent;
+    color: black;
+
+}
+
+
+
+

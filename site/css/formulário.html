@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" a href="formulário.css">
+    
+</head>
+<body>
+
+         <div>
+             <h1 id="Titulo">Formulário Básico</h1>
+              <p id="Subtitulo"><b>Preencha os dados abaixo:</b> 
+        </div>                  
+<form>
+
+     <fieldset class="grupo1">
+        <div>
+        <b>Nome:</b>
+        <br>         
+        <input type="text" name="Nome" placeholder="Nome" required/> <br>
+
+        <b>Sobrenome:</b>
+        <br> 
+        <input type="text" name="Sobrenome" placeholder="Sobrenome" required/> <br>
+
+         <b>Email</b>
+        <br>
+        <input type="text" name="Email" placeholder="E-mail" required/> <br>
+
+        <b>Senha:</b> 
+        <br> 
+        <input type="password" name="Senha"
+         placeholder="4-8 digítos"  minlength="4" maxlength="8" required/> <br>
+       </div>
+    </fieldset>
+
+<fieldset class="grupo2">
+    <div>  
+        <b>Sexo:</b>
+
+        <input type="radio" name="Sexo" value="Masculino" class="grupo 2"> Masculino
+        <input type="radio" name="Sexo" value="Feminino" class="grupo 2" > Feminino
+        <input type="radio" name="Sexo" value="NãoInformar" class="grupo 2"> Não informar  <br> 
+    </div> 
+</fieldset>      
+      
+
+<fieldset class="grupo3">
+    
+        <b>O que você mais gosta de fazer?</b>
+        <br>
+    
+    <div>
+        <input type="checkbox" name="Escolher" value="Sair com os Amigos"> Sair com os Amigos <br>
+        <input type="checkbox" name="Escolher" value="Assistir Filmes/Series"> Assistir Filmes/Series <br>
+        <input type="checkbox" name="Escolher" value="Ficar Dormir"> Ficar dormindo <br>
+        <input type="checkbox" name="Escolher" value="Comer"> Comer <br>
+        <input type="checkbox"  name="Escolher" value="Outros"> Outros: <br>
+        <br>
+    </div>
+</fieldset>
+
+    
+
+    
+    
+
+
+</form>
+     <input class="concluir" type="submit" name="Enviar" value="Enviar">
+     
+
+
+
+
+</body>
+
+
+
+</html>
