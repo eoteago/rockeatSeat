@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,300&display=swap');
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+  .perfil {
+    width: 150px;
+    height: 150px;
+    border: 5px solid (black);
+    border-radius: 200%;
+    margin: 0 auto;
+    display: block;
+}
+
+.topoinsta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 11px auto;
+    font-weight: bold;
+}
+
+.redessociais a {
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.link {
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto;
+}
+
+.links h1{
+    font-size: 2rem;
+}
+
+.text {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+}
