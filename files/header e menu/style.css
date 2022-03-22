@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+*{
+    margin: 0;
+}
+
+header{
+    padding: 4rem;
+    background: rgba(0, 0, 0, 0.911);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+    height: 150px;
+    border-radius: 180px;
+}
+figure{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Hurrican' sans-serif;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+    color: white;
+}
+
+ul li:last-child{
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: .8rem;
+    border-radius: 200px;
+    
+}
