@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+
+#corpo {
+    width: 0;
+    padding: 50px;
+    background-color: lightgray;
+    margin-top: 10%;
+    margin-left: 40%;
+ 
+}
